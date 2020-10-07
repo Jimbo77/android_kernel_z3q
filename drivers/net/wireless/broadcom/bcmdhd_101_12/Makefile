@@ -330,8 +330,6 @@ endif
 # WLC_E_SET_SSID fail
 DHDCFLAGS += -DSET_SSID_FAIL_CUSTOM_RC=100
 
-PLATFORM_VERSION=10.0
-
 # Android Version Check from Platform source
 ifneq ($(ANDROID_VERSION),)
 MAJOR_VERSION := $(shell echo $(ANDROID_VERSION) | rev | cut -c 5- | rev)

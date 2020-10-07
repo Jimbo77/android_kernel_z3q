@@ -19,7 +19,7 @@ config DRV_SAMSUNG
 	  Samsung sysfs name 'sec' directory create
 
 config SEC_DEBUG
-	bool "Enable Samsung Debugging features"
+	tristate "Enable Samsung Debugging features"
 	default n
 
 config SEC_PARAM
